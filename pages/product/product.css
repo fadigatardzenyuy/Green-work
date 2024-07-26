@@ -1,0 +1,40 @@
+.container {
+    margin-top: 6rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.container .card {
+
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    cursor: pointer;
+
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    /* animation: pop 500ms linear; */
+
+}
+
+/* @keyframes pop {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+
+} */
+
+.card img:hover {
+    animation: pop 1s linear;
+
+}
